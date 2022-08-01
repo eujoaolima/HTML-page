@@ -4,21 +4,20 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background: #f06529;
+    background:#f06529;
 }
 
 body{
-    position: relative;
     font-family: 'Poppins', sans-serif;
 }
 
 .title {
     font-size: 150px;
+    width: 30%;
     text-shadow: 0 0 50px;
     color: white;
-    position: relative;
-    width: 100%;
-    left: 40%;
+    position: absolute;
+    left: 37%;
     padding: 1%;
     margin-bottom: 20px;
 }
@@ -29,25 +28,91 @@ body{
 }
 
 #subtitle-1 {
-    font-size: 50px;
+    position: relative;
+    width: 50%;
+    top: 250px;
+    font-size: 35px;
     text-shadow: 0 0 50px;
     padding: 1%;
-    margin: 1%;
+    left: 5%;
 }
 
-#paragraph {
-    font-size: 30px;
+#paragraph-1 {
+    font-size: 25px;
     margin: 0;
     padding: 0;
-    position: relative;
-    left: 6%;
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    width: 50%;
+}
+
+#paragraph-2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    width: 60%;
+}
+
+#paragraph-3 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    top: 75%;
+    width: 50%;
+}
+
+#paragraph-4 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    top: 85%;
+    width: 50%;
+}
+
+#paragraph-5 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    top: 95%;
+    width: 60%;
+}
+
+#paragraph-6 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    top: 105%;
+    width: 60%;
+}
+
+#paragraph-7 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    top: 110%;
+    width: 50%;
 }
 
 #font-1{
-    position: relative;
-    margin: 1%;
+    position: absolute;
     text-shadow: 0 0 30px white;
-    left: 100px;
+    left: 10%;
+    top: 120%;
+    width: 60%;
 }
 
 #link {
@@ -55,16 +120,26 @@ body{
 }
 
 #image-html {
-    position: relative;
+    position: absolute;
     padding: 0;
     margin-bottom: 100px;
-    margin: 5%;
-    left: 13%;
+    left: 10%;
+    top: 130%;
 }
 
 #html-subtle {
     font-size: 20px;
-    position: relative;
-    bottom: 70px;
-    left: 40%;
+    position: absolute;
+    width: 25%;
+    top: 190%;
+    left: 37%;
+}
+
+#footer-paragraph {
+    background-color: #ff8b59;
+    color: white;
+    position: absolute;
+    padding: 0.3%;
+    top: 200%;
+    width: 100%;
 }
